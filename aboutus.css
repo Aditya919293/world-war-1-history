@@ -1,0 +1,100 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.nav{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 18px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    display: block;
+}
+
+.nav a:hover{
+    outline:5px solid whitesmoke;
+    color:goldenrod;
+}
+
+.article{
+    columns: 2 250px;
+    column-rule-style: dashed;
+    color: whitesmoke;
+    margin: 10px;
+    text-align:left;
+}
+
+.article p::first-letter{
+    font-size: 25px;
+    text-indent: 15px;
+}
+
+.article h1{
+    border-bottom: 3px solid whitesmoke;
+    text-align: center;
+}
+
+.article img{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*image gallery*/
+.grid-container{
+    max-width: 85%;
+    margin: 10px auto;
+}
+
+.grid-container h1{
+    text-align: center;
+    padding: 20px 40px;
+    color: whitesmoke;
+}
+
+.grid-container .grid-img{
+    columns: 4 250px;
+    column-gap: 16px;
+}
+
+.grid-container .grid-img img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+} 
